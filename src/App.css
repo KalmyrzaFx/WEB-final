@@ -36,6 +36,17 @@ body {
   margin-bottom: 5px;
 }
 
+.form-group #category {
+  height: 30px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-group #amount {
+  height: 23px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .btn {
   background-color: rgb(70,18,0);
   color: white;
@@ -57,16 +68,13 @@ body {
 }
 
 .card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  display: grid;
   border-radius: .25rem;
   background-color:rgb(34,43,69);
   transform-style: preserve-3d;
   transition: 150ms;
   cursor: pointer;
-  transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  transform: perspective(1000px) rotateX(var(--rotate-x, 0)) translateX(var(--translate-x, 0));
 }
 
 .card:hover {
@@ -75,7 +83,7 @@ body {
 }
 
 .card.flip {
-  --rotate-y: 180deg;
+  --rotate-x: 180deg;
 }
 
 .card .front {
@@ -84,7 +92,8 @@ body {
 
 .card .front,
 .card .back {
-  position: absolute;
+  grid-area: 1 / 1 / 2 / 2;
+  /* position: absolute; */
   padding: 1rem;
   backface-visibility: hidden;
   color: #fff;
@@ -92,7 +101,7 @@ body {
 }
 
 .card .back {
-  transform: rotateY(180deg);
+  transform: rotatex(180deg);
 }
 
 .flashcard-options {
