@@ -31,10 +31,6 @@ Stackoverflow
 
 
 ## Screenshots  
-- ![]()
-- ![]()
-
-- ![]()
-- ![]()
-
-- ![]()
+- ![](/Screenshots/website.png)
+- ![](/Screenshots/giphy.gif)
+- ![](/Screenshots/VsCode.PNG)
