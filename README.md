@@ -1,10 +1,8 @@
 # WEB final group project
 
-**Project Name:** 
+**Project Name:** Quizlet web app
 
-**Feedbacks from our friends:** 
-
-**YouTube presentation:** 
+**YouTube presentation:** [https://www.youtube.com/watch?v=u3kZC1J2Vgc](https://www.youtube.com/watch?v=u3kZC1J2Vgc)
 
 **Link to site:** [https://heuristic-noyce-106def.netlify.app/](https://heuristic-noyce-106def.netlify.app/)
 
